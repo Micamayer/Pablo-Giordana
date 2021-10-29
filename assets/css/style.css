@@ -1,3 +1,24 @@
-body, nav {
-  background-color: #8EC5FC;
-  background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%); }
+body {
+  background-color: #FFFFFF; }
+
+.navBar {
+  width: 100%;
+  position: fixed;
+  z-index: 2; }
+
+.navBar:hover {
+  background-color: #FFFFFF; }
+
+.aboutMe__img {
+  border-radius: 70px; }
+
+.treatments__card {
+  height: 375px;
+  width: 375px;
+  background-color: #FEE5BF; }
+
+.onlineBenefits__circles {
+  background-color: #FEE5BF;
+  height: 96px;
+  width: 96px;
+  border-radius: 100%; }

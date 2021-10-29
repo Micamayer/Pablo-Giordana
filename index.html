@@ -8,7 +8,7 @@
 
     <!-- Animate CSS -->
     <link rel="stylesheet " href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
-    
+
     <!-- AOS Animate CSS -->
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
@@ -18,43 +18,173 @@
     <!-- Nuestro CSS -->
     <link rel="stylesheet" href="assets/css/style.css">
 
+    <link rel="icon" href="assets/img/Pablo-Giordana-Favicon.png" type="image/png">
     <title>Pablo Giordana</title>
 
-    <!-- meta description... -->
-
+    <!-- meta description... 👇👇👇👇-->
 
 </head>
 
 
 
 <body>
-
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light navBar">
         <a class="navbar-brand" href="#">Navbar</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
             <ul class="navbar-nav">
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="#">HOME<span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Features</a>
+                    <a class="nav-link" href="#">SOBRE MI</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Pricing</a>
+                    <a class="nav-link" href="#">SERVICIOS</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link disabled" href="#">Disabled</a>
+                    <a class="nav-link" href="#">CONTACTO</a>
                 </li>
             </ul>
         </div>
     </nav>
 
+    <!-- Imagen de Banner -->
+    <div class="container-fluid banner">
+        <div class="row">
+            <img class="col-lg-12 p-0" src="assets/img/banner.png" alt="">
+        </div>
+    </div>
 
+    <!-- Acerca de Mi -->
+    <div class="container aboutMe">
+        <div class="row">
+            <h2 class="col-lg-12 text-center">SOBRE MI</h2>
+            <img src="assets/img/Pablo-Giordana-Foto.png" alt="" class="col-lg-6 aboutMe__img">
+            <div class="col-lg-6">
+                <p class="col-lg-12">Mi nombre es Pablo Giordana y hace más de 20 años que soy psicólogo. A lo largo de
+                    mi experiencia profesional me fui desarrollando en varios ámbitos pero siempre orienté mi
+                    perspectiva de abordaje empatizando con la persona que consulta.
+                    Nunca me sentí del todo de acuerdo con ese perfil profesional distante, callado, misterioso y
+                    críptico, que anula todo tipo de cercanía. Una distancia óptima es operativa para trabajar, pero no
+                    tiene que impedir algún tipo de empatía y de solidaridad que resuene en la escucha de lo que se nos
+                    plantea.
+                    Esta mirada la fui construyendo a partir de mi estudio de la escuela sistémica, quien propone que
+                    los problemas no son “de alguien” sino “de una situación”. Los problemas los padece alguien pero se
+                    los entiende mejor dentro del contexto en el que tienen lugar.</p>
+                <button class="col-lg-12"><span>Conoce mas sobre mi en mi perfil</span></button>
+            </div>
+        </div>
+    </div>
 
+    <!-- Temas que Tratamos -->
+    <div class="container-fluid treatents">
+        <div class="row d-flex justify-content-center">
+            <div class="col-lg-12">
+                <h2 class="text-center">Tratamos diversos temas:</h2>
+            </div>
+
+            <div class="m-3 p-0 text-center treatments__card ">
+                <div class="d-flex justify-content-center align-items-center">
+                    <span class="treatments__icon">
+                        <ion-icon name="thunderstorm"></ion-icon>
+                    </span>
+                </div>
+                <span>Ansiedad</span>
+            </div>
+
+            <div class="m-3 p-0 text-center treatments__card">
+                <div class="d-flex justify-content-center align-items-center">
+                    <span class="treatments__icon">
+                        <ion-icon name="thunderstorm"></ion-icon>
+                    </span>
+                </div>
+                <span>Pareja</span>
+            </div>
+
+            <div class="m-3 p-0 text-center treatments__card ">
+                <div class="d-flex justify-content-center align-items-center">
+                    <span class="treatments__icon">
+                        <ion-icon name="man"></ion-icon>
+                    </span>
+                </div>
+                <span>Consumo</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Como Trabajo? -->
+    <div class="container">
+        <div class="row">
+            <h2 class="col-lg-12 text-center">Como Trabajo?</h2>
+            <p class="col-lg-12 text-center">Mi propuesta inicial es tener tres o cuatro entrevistas en las que me armo
+                una idea general, un mapa de la situación expuesta y luego hago una pequeña devolución en la cual
+                planteo qué entiendo yo qué se podría trabajar y acuerdo esto con quien me consulta, armando juntos un
+                plan de trabajo, metas, plazos objeciones, etc.</p>
+        </div>
+    </div>
+
+    <!-- Beneficios Online -->
+    <div class="container">
+        <div class="row d-flex justify-content-center onlineBenefits">
+            <h2 class="col-lg-12 text-center"> Estas Lejos De Argentina?</h2>
+            <h3 class="col-lg-12 text-center"> Hace Terapia Online!</h3>
+
+            <div class="mx-3">
+                <div class="circle onlineBenefits__circles d-flex justify-content-center align-items-center">
+                    <span class="onlineBenefits__icon text-center d-flex justify-content-center">
+                        <ion-icon name="home"></ion-icon>
+                    </span>
+                </div>
+                <span class="text-center d-flex justify-content-center">Comodidad</span>
+            </div>
+
+            <div class="mx-3">
+                <div class="circle onlineBenefits__circles d-flex justify-content-center align-items-center">
+                    <span class="onlineBenefits__icon text-center d-flex justify-content-center">
+                        <ion-icon name="lock-closed"></ion-icon>
+                    </span>
+                </div>
+                <span class="text-center d-flex justify-content-center">Confianza</span>
+            </div>
+
+            <div class="mx-3">
+                <div class="circle onlineBenefits__circles d-flex justify-content-center align-items-center">
+                    <span class="onlineBenefits__icon text-center d-flex justify-content-center">
+                        <ion-icon name="chatbubble-ellipses"></ion-icon>
+                    </span>
+                </div>
+                <span class="text-center d-flex justify-content-center">Dialogo</span>
+            </div>
+
+            <div class="mx-3">
+                <div class="circle onlineBenefits__circles d-flex justify-content-center align-items-center">
+                    <span class="onlineBenefits__icon text-center d-flex justify-content-center">
+                        <ion-icon name="tv"></ion-icon>
+                    </span>
+                </div>
+                <span class="text-center d-flex justify-content-center">Virtual</span>
+            </div>
+
+            <div class="mx-3">
+                <div class="circle onlineBenefits__circles d-flex justify-content-center align-items-center">
+                    <span class="onlineBenefits__icon text-center d-flex justify-content-center">
+                        <ion-icon name="mic"></ion-icon>
+                    </span>
+                </div>
+                <span class="text-center d-flex justify-content-center">Español</span>
+            </div>
+
+            <div class="col-lg-12 d-flex justify-content-center">
+                <button class="col-lg-4">
+                    <span> QUIERO EMPEZAR TERAPIA ONLINE</span>
+                </button>
+            </div>
+        </div>
+    </div>
 
 
 
@@ -77,7 +207,7 @@
     <script src="assets/js/bootstrap.bundle.min.js"></script>
 
     <!-- Script de Javascript-->
-    <script src="javascript/home.js"></script>
+    <script src="javascript/index.js"></script>
 </body>
 
 </html>

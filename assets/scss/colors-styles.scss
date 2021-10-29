@@ -1,5 +1,40 @@
-body, nav{
-    background-color: #8EC5FC;
-    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+$beigeClaro: #FEE5BF;
+$beigeoscuro: #E0B86D;
+$negro: #333333;
+$grisOscuro: #616162;
+$grisClaro: #F5F5F5;
+$blanco: #FFFFFF;
+
+body{
+    // background-color: #8EC5FC;
+    // background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+    background-color: $blanco;
     
+}
+
+.navBar{
+    width: 100%;
+    position: fixed;
+    z-index: 2;
+}
+
+.navBar:hover{
+    background-color: $blanco;
+}
+
+.aboutMe__img{
+    border-radius: 70px;    
+}
+
+.treatments__card{
+    height: 375px;
+    width: 375px;
+    background-color:$beigeClaro;
+}
+
+.onlineBenefits__circles{
+    background-color: $beigeClaro;
+    height:96px;
+    width: 96px;
+    border-radius:100%;
 }
